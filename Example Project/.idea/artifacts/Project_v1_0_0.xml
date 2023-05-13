@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Project-v1.0.0">
+    <output-path>$PROJECT_DIR$/../jar</output-path>
+    <root id="root">
+      <element id="archive" name="Project.jar">
+        <element id="module-output" name="Project" />
+      </element>
+      <element id="library" level="project" name="java_fx_lib" />
+      <element id="library" level="project" name="project_lib" />
+    </root>
+  </artifact>
+</component>

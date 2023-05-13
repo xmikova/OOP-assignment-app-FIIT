@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.TripSummaryController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="490.0" prefWidth="670.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="118.0" layoutX="-4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="672.0" />
+        <Text layoutX="190.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EspaTrip">
+          <font>
+            <Font name="Bodoni MT" size="72.0" />
+          </font>
+        </Text>
+        <Text layoutX="292.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="your Spanish adventure">
+          <font>
+            <Font name="Bodoni MT" size="14.0" />
+          </font>
+        </Text>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f1d487" height="312.0" layoutX="-1.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="670.0" />
+        <Text layoutX="261.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trip summary:">
+          <font>
+            <Font name="Bodoni MT" size="24.0" />
+          </font>
+        </Text>
+        <Text layoutX="474.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0">
+          <font>
+            <Font size="26.0" />
+          </font>
+        </Text>
+            <Text layoutX="277.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location:">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Label fx:id="locationLabel" layoutX="350.0" layoutY="166.0" text="Label">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font></Label>
+            <Text layoutX="137.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Children:">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Label fx:id="childrenLabel" layoutX="207.0" layoutY="241.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font></Label>
+            <Text layoutX="298.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pets:">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Label fx:id="petsLabel" layoutX="339.0" layoutY="241.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font></Label>
+            <Text layoutX="424.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Label fx:id="genderLabel" layoutX="484.0" layoutY="239.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font></Label>
+            <Text layoutX="279.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City centre:">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Label fx:id="cityCentreLabel" layoutX="365.0" layoutY="204.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font></Label>
+            <Text layoutX="164.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age range:">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Label fx:id="minAgeLabel" layoutX="247.0" layoutY="281.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font></Label>
+            <Label layoutX="283.0" layoutY="283.0" text="-" />
+            <Label fx:id="maxAgeLabel" layoutX="308.0" layoutY="281.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font></Label>
+            <Text layoutX="142.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expected price (accomodation + places to see):">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="244.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Itinerary:">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Hyperlink fx:id="itineraryLabel" layoutX="317.0" layoutY="315.0" onAction="#hyperLinkHandlerTripSummary" text="click here to review" />
+            <Label fx:id="expectedPriceLabel" layoutX="465.0" layoutY="348.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font></Label>
+            <Text layoutX="396.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Length:">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font>
+            </Text>
+            <Label fx:id="lengthLabel" layoutX="462.0" layoutY="281.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT" size="16.0" />
+               </font></Label>
+            <Button fx:id="acceptButton" layoutX="235.0" layoutY="382.0" mnemonicParsing="false" onAction="#acceptTheOffer" text="Accept" />
+            <Button fx:id="rejectButton" layoutX="386.0" layoutY="382.0" mnemonicParsing="false" onAction="#rejectTheOffer" text="Reject" />
+          <Button layoutX="14.0" layoutY="14.0" onAction="#goBackToPref2" prefHeight="29.0" prefWidth="24.0">
+          <graphic>
+              <ImageView fitHeight="25" fitWidth="25" preserveRatio="true">
+                  <image>
+                      <Image url="@Daco_1061721.png" />
+                  </image>
+              </ImageView>
+          </graphic>
+      </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

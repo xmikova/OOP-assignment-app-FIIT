@@ -1,0 +1,542 @@
+[
+    {
+      "id": "Botin",
+      "id2": "Botin2",
+      "name": "Botin",
+      "description": "The world's oldest restaurant famous for its roast suckling pig and lamb.",
+      "price": 40,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "Casamono",
+      "id2": "Casamono2",
+      "name": "Casa Mono",
+      "description": "A cozy restaurant serving Spanish and international cuisine.",
+      "price": 25,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "Elcluballard",
+      "id2": "Elcluballard2",
+      "name": "El Club Allard",
+      "description": "A Michelin-starred restaurant serving creative, contemporary cuisine.",
+      "price": 70,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "Diverxo",
+      "id2": "Diverxo2",
+      "name": "DiverXO",
+      "description": "A three-Michelin-starred restaurant serving avant-garde cuisine.",
+      "price": 250,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "Streetxo",
+      "id2": "Streetxo2",
+      "name": "StreetXO",
+      "description": "A street food-inspired restaurant serving Asian-Spanish fusion cuisine.",
+      "price": 20,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "tenconten",
+      "id2": "tenconten2",
+      "name": "Ten Con Ten",
+      "description": "A chic restaurant serving Mediterranean cuisine with a modern twist.",
+      "price": 40,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "casalucio",
+      "id2": "casalucio2",
+      "name": "Casa Lucio",
+      "description": "A traditional Spanish restaurant famous for its huevos rotos (broken eggs).",
+      "price": 35,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "Lavaca",
+      "id2": "Lavaca2",
+      "name": "La Vaca y La Huerta",
+      "description": "A restaurant serving high-quality meat and seasonal vegetables.",
+      "price": 35,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "Ramenkagura",
+      "id2": "Ramenkagura2",
+      "name": "Ramen Kagura",
+      "description": "A cozy restaurant serving authentic Japanese ramen.",
+      "price": 15,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "Latasqueria",
+      "id2": "Latasqueria2",
+      "name": "La Tasqueria",
+      "description": "A Michelin-starred restaurant serving creative cuisine using offal.",
+      "price": 50,
+      "type": "restaurant",
+      "city": "Madrid"
+    },
+    {
+      "id": "Madridpalace",
+      "id2": "Madridpalace2",
+      "name": "Madrid Royal Palace",
+      "description": "A must-visit for anyone interested in history and architecture.",
+      "price": 0,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id": "pradomuseum",
+      "id2": "pradomuseum2",
+      "name": "Prado Museum",
+      "description": "One of the world's most famous art museums with an extensive collection of European art.",
+      "price": 15,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id": "retiropark",
+      "id2": "retiropark2",
+      "name": "Retiro Park",
+      "description": "A beautiful park with gardens, fountains, and monuments in the heart of Madrid.",
+      "price": 0,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id": "reinasofia",
+      "id2": "reinasofia2",
+      "name": "Reina Sofia Museum",
+      "description": "Dedicated to contemporary art and home to Picasso's 'Guernica.'",
+      "price": 10,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id": "granvia",
+      "id2": "granvia2",
+      "name": "Gran Via",
+      "description": "One of Madrid's most famous streets with numerous shops, theaters, and restaurants.",
+      "price": 0,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id":"santiagobernabeu",
+      "id2":"santiagobernabeu2",
+      "name": "Santiago Bernabeu Stadium",
+      "description": "Home of Real Madrid football club and a popular tourist destination.",
+      "price": 25,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id": "plazamayor",
+      "id2": "plazamayor2",
+      "name": "Plaza Mayor",
+      "description": "A historic central square in Madrid with numerous cafes and restaurants.",
+      "price": 0,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id": "mercadodesanmiguel",
+      "id2": "mercadodesanmiguel2",
+      "name": "Mercado de San Miguel",
+      "description": "A covered market with numerous food stalls selling a variety of Spanish delicacies.",
+      "price": 0,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id": "puertadelsol",
+      "id2": "puertadelsol2",
+      "name": "Puerta del Sol",
+      "description": "A bustling central square in Madrid with numerous shops and street performers.",
+      "price": 0,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id": "almudena",
+      "id2": "almudena2",
+      "name": "Almudena Cathedral",
+      "description": "A beautiful cathedral located next to the Royal Palace.",
+      "price": 0,
+      "type": "sight",
+      "city": "Madrid"
+    },
+    {
+      "id": "casacarmela",
+      "id2": "casacarmela2",
+      "name": "Casa Carmela",
+      "description": "Casa Carmela is a family-owned restaurant that has been serving traditional Valencian cuisine for over 90 years. It is located on the beachfront and is known for its paella and other rice dishes.",
+      "price": 30,
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "ricardcamarena",
+      "id2": "ricardcamarena2",
+      "name": "Ricard Camarena Restaurant",
+      "description": "Ricard Camarena Restaurant is a Michelin-starred restaurant that offers innovative and creative modern Spanish cuisine. It is located in the Canovas neighborhood of Valencia and is one of the most renowned restaurants in the city.",
+      "price": 100,
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "lapepica",
+      "id2": "lapepica2",
+      "name": "La Pepica",
+      "description": "La Pepica is a historic restaurant that has been serving Valencian cuisine for over 100 years. It is located on the beachfront and is famous for its paella and other rice dishes.",
+      "price": 25,
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "cerveceriamaipi",
+      "id2": "cerveceriamaipi2",
+      "name": "Cerveceria Maipi",
+      "description": "Cerveceria Maipi is a cozy bar that serves traditional Spanish tapas and drinks. It is located in the lively Ruzafa neighborhood and is popular among locals and tourists alike.",
+      "price": 20,
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "ricardcamarenacolon",
+      "id2": "ricardcamarenacolon2",
+      "name": "Ricard Camarena Colon",
+      "description": "Ricard Camarena Colon is a more casual restaurant by Michelin-starred chef Ricard Camarena. It serves modern Spanish cuisine and is located in the heart of Valencia's shopping district.",
+      "price": 50,
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "lariua",
+      "id2": "lariua2",
+      "name": "La Riua",
+      "description": "La Riua is a cozy restaurant that serves Mediterranean cuisine with a focus on fresh seafood. It is located in the historic Carmen neighborhood and is popular among locals and tourists.",
+      "price": 30,
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "navarro",
+      "id2": "navarro2",
+      "name": "Navarro",
+      "description": "Navarro is a classic Valencian restaurant that has been around for over 100 years. It is known for its rice dishes, especially the arroz al horno. It is located in the Algiros neighborhood.",
+      "price": 35,
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "elpoblet",
+      "id2": "elpoblet2",
+      "name": "El Poblet",
+      "price": 90,
+      "description": "El Poblet is a Michelin-starred restaurant that offers a modern take on traditional Spanish cuisine. It is located in the heart of Valencia",
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "lamaritimo",
+      "id2": "lamaritimo2",
+      "name": "La Maritimo",
+      "price": 110,
+      "description": "La Maritimo is a seafood restaurant that specializes in dishes made with fresh, locally caught seafood. It is located on the beachfront in Valencia",
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "lalluna",
+      "id2": "lalluna2",
+      "name": "La Lluna",
+      "price": 65,
+      "description": "La Lluna is a cozy bistro that serves traditional Valencian cuisine, including paella, fideuà, and arroz al horno. It is located in the historic center of Valencia",
+      "type": "restaurant",
+      "city": "Valencia"
+    },
+    {
+      "id": "cityofaas",
+      "id2": "cityofaas2",
+      "name": "City of Arts and Sciences",
+      "description": "An architectural complex featuring futuristic buildings, gardens, museums, and an aquarium.",
+      "price": 18,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "centralmarket",
+      "id2": "centralmarket2",
+      "name": "Central Market of Valencia",
+      "description": "A bustling market with a stunning Art Nouveau building, offering fresh produce, meats, cheeses, and more.",
+      "price": 0,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "lonja",
+      "id2": "lonja2",
+      "name": "Lonja de la Seda",
+      "description": "A UNESCO World Heritage site, a beautiful Gothic building which was once the silk exchange.",
+      "price": 2,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "turiagardens",
+      "id2": "turiagardens2",
+      "name": "Turia Gardens",
+      "description": "A vast park running through the city, with fountains, sports facilities, and gardens.",
+      "price": 0,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "valenciacathedral",
+      "id2": "valenciacathedral2",
+      "name": "Valencia Cathedral",
+      "description": "A stunning Gothic cathedral, home to the Holy Chalice, said to be the cup used by Jesus at the Last Supper.",
+      "price": 8,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "torresdeserranos",
+      "id2": "torresdeserranos2",
+      "name": "Torres de Serranos",
+      "description": "A beautiful Gothic gate that once formed part of the city's defensive walls.",
+      "price": 2,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "albufera",
+      "id2": "albufera2",
+      "name": "Albufera Natural Park",
+      "description": "A nature reserve with a large lagoon, home to a variety of bird species and rice paddies.",
+      "price": 4,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "mercadocolon",
+      "id2": "mercadocolon2",
+      "name": "Mercado Colon",
+      "description": "A historic market building, now home to shops, restaurants, and cafes.",
+      "price": 0,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "bioparc",
+      "id2": "bioparc2",
+      "name": "Bioparc Valencia",
+      "description": "A zoo that aims to recreate the natural habitats of the animals, with a focus on conservation.",
+      "price": 23.8,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "oceanografic",
+      "id2": "oceanografic2",
+      "name": "Oceanografic",
+      "description": "An aquarium with a variety of marine life from different habitats around the world.",
+      "price": 31.4,
+      "type": "sight",
+      "city": "Valencia"
+    },
+    {
+      "id": "tickets",
+      "id2": "tickets2",
+      "name": "Tickets",
+      "description": "An innovative and creative restaurant serving avant-garde Spanish cuisine, owned by the famous chef Ferran Adria.",
+      "price": 120,
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "elspescadors",
+      "id2": "elspescadors2",
+      "name": "Els Pescadors",
+      "description": "A cozy and charming restaurant located in the Barceloneta district, serving fresh and delicious seafood dishes.",
+      "price": 45,
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "disfrutar",
+      "id2": "disfrutar2",
+      "name": "Disfrutar",
+      "description": "A Michelin-starred restaurant owned by three former elBulli chefs, offering a unique and creative dining experience.",
+      "price": "150",
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "canculleretes",
+      "id2": "canculleretes2",
+      "name": "Can Culleretes",
+      "description": "The oldest restaurant in Barcelona, dating back to 1786, serving traditional Catalan cuisine.",
+      "price": 35,
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "brugarol",
+      "id2": "brugarol2",
+      "name": "Brugarol Barcelona",
+      "description": "A stylish and contemporary restaurant in the heart of the city, offering a menu that combines traditional and modern Spanish cuisine.",
+      "price": 70,
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "laparadeta",
+      "id2": "laparadeta2",
+      "name": "La Paradeta",
+      "description": "A unique restaurant where you can choose your own fresh seafood from the counter and have it cooked to order.",
+      "price": 25,
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "ticketslabodega",
+      "id2": "ticketslabodega2",
+      "name": "Tickets La Bodega",
+      "description": "A casual and lively tapas bar, owned by the team behind the famous restaurant Tickets.",
+      "price": 25,
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "pacomeralgo",
+      "id2": "pacomeralgo2",
+      "name": "Paco Meralgo",
+      "description": "A classic tapas bar serving a variety of traditional and modern Spanish dishes in a cozy and welcoming atmosphere.",
+      "price": 35,
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "casacalvet",
+      "id2": "casacalvet2",
+      "name": "Casa Calvet",
+      "description": "A beautiful modernist building designed by Antoni Gaudi, serving traditional Catalan cuisine in an elegant setting.",
+      "price": 50,
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "barcanete",
+      "id2": "barcanete2",
+      "name": "Bar Canete",
+      "description": "A lively and popular tapas bar in the Gothic Quarter, serving a wide variety of traditional Spanish dishes.",
+      "price": 40,
+      "type": "restaurant",
+      "city": "Barcelona"
+    },
+    {
+      "id": "sagradafamilia",
+      "id2": "sagradafamilia2",
+      "name": "Sagrada Familia",
+      "description": "An iconic church designed by the architect Antoni Gaudi, known for its unique and intricate architecture and stained glass windows.",
+      "price": 20,
+      "type": "sight",
+      "city": "Barcelona"
+    },
+    {
+      "id": "parkguell",
+      "id2": "parkguell2",
+      "name": "Park Guell",
+      "description": "A colorful park also designed by Antoni Gaudi, known for its mosaic tiles, unique sculptures, and stunning views of the city.",
+      "price": 10,
+      "type": "sight",
+      "city": "Barcelona"
+    },
+    {
+      "id": "casabatllo",
+      "id2": "casabatllo2",
+      "name": "Casa Batllo",
+      "description": "A museum showcasing the architectural works of Antoni Gaudi, featuring a colorful facade and stunning interiors.",
+      "price": 25,
+      "type": "sight",
+      "city": "Barcelona"
+    },
+    {
+      "id": "larambla",
+      "id2": "larambla2",
+      "name": "La Rambla",
+      "description": "A lively and bustling street in the heart of Barcelona, lined with shops, restaurants, street performers, and historic buildings.",
+      "price": 0,
+      "type": "sight",
+      "city": "Barcelona"
+    },
+    {
+      "id": "barcelonetabeach",
+      "id2": "barcelonetabeach2",
+      "name": "Barceloneta Beach",
+      "description": "A popular and bustling beach in the heart of Barcelona, with soft sand, clear waters, and plenty of amenities and activities.",
+      "price": 0,
+      "type": "sight",
+      "city": "Barcelona"
+    },
+    {
+      "id": "campnou",
+      "id2": "campnou2",
+      "name": "Camp Nou",
+      "description": "The iconic stadium of FC Barcelona, one of the world's most famous soccer teams, known for its impressive size and atmosphere.",
+      "price": 26,
+      "type": "sight",
+      "city": "Barcelona"
+    },
+    {
+      "id": "musicacatalana",
+      "id2": "musicacatalana2",
+      "name": "Palau de la Musica Catalana",
+      "description": "A stunning concert hall featuring a beautiful modernist design, with intricate stained glass windows and a striking central dome.",
+      "price": 20,
+      "type": "sight",
+      "city": "Barcelona"
+    },
+    {
+      "id": "casamila",
+      "id2": "casamila2",
+      "name": "Casa Mila",
+      "description": "A museum dedicated to the work of Antoni Gaudi, featuring a unique and undulating facade and a stunning rooftop terrace.",
+      "price": 22,
+      "type": "sight",
+      "city": "Barcelona"
+    },
+    {
+      "id": "montjuic",
+      "id2": "montjuic2",
+      "name": "Montjuic Castle",
+      "description": "A historic castle perched on a hill overlooking the city of Barcelona, with impressive views and a fascinating history.",
+      "price": 5,
+      "type": "sight",
+      "city": "Barcelona"
+    },
+    {
+      "id": "casavicens",
+      "id2": "casavicens2",
+      "name": "Casa Vicens",
+      "description": "A museum showcasing the early works of Antoni Gaudi, featuring a colorful and ornate facade and unique interior design.",
+      "price": 16,
+      "type": "sight",
+      "city": "Barcelona"
+    }
+  ]

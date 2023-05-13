@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: Project
+Implementation-Version: 1.0.0
+Implementation-Vendor: OOP - FIIT, STU
+Implementation-Vendor-Id: org.example
+Implementation-Timestamp: 2023-05-13T21:34:50+0200
+Specification-Title: Project
+Specification-Version: 1.0.0
+Specification-Vendor: OOP - FIIT, STU
+Application-Name: Project
+Main-Class: org.example.app.Boot
+Built-By: Petra Miková
+Build-Time: 2023-05-13 Time: 21:34 Zone: +0200
+Created-By: Petra Miková
+Permissions: all-permissions
+Codebase: *
+Automatic-Module-Name: Project.main
+

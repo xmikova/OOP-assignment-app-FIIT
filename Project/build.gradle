@@ -1,0 +1,132 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.javamodularity.moduleplugin' version '1.8.12'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'org.beryx.jlink' version '2.25.0'
+    id "com.github.johnrengelman.shadow" version "8.1.1"
+    id 'maven-publish'
+    id("io.ktor.plugin") version "2.2.4"
+    id 'org.graalvm.buildtools.native' version '0.9.8'
+}
+
+group 'org.example'
+version '1.0.0'
+
+ext.moduleName = 'Project.main'
+sourceCompatibility = 1.11
+
+
+def createdBy =  'Petra Miková'
+def vendorName = 'OOP - FIIT, STU'
+
+repositories {
+    mavenCentral()
+    gradlePluginPortal()
+    jcenter()
+}
+
+sourceCompatibility = '18'
+targetCompatibility = '18'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+mainClassName = "org.example.app.Main"
+
+application {
+    mainModule = 'org.example'
+    mainClass = 'org.example.app.Boot'
+}
+
+javafx {
+    version = '19'
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.media', 'javafx.graphics', 'javafx.web']
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.13.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.13.0'
+    implementation 'org.openjfx:javafx-controls:19'
+    implementation 'org.openjfx:javafx-fxml:19'
+    implementation 'org.openjfx:javafx-graphics:19'
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'org.xerial:sqlite-jdbc:3.36.0.1'
+    implementation 'org.openjfx:javafx-fxml:21-ea+5'
+    implementation 'org.openjfx:javafx-graphics:21-ea+5'
+    implementation 'org.openjfx:javafx-base:21-ea+5'
+    implementation 'org.openjfx:javafx-controls:21-ea+5'
+    implementation 'org.openjfx:javafx-media:21-ea+5'
+    implementation 'org.openjfx:javafx-swing:21-ea+5'
+    implementation 'org.openjfx:javafx-web:21-ea+5'
+    implementation 'org.openjfx:javafx:21-ea+5'
+}
+
+mainClassName = 'Main'
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.named('jar') {
+    inputs.property("moduleName", moduleName)
+    inputs.files( configurations.runtimeClasspath )
+    manifest {
+        attributes(
+                'Implementation-Title': project.name,
+                'Implementation-Version': project.version,
+                'Implementation-Vendor': vendorName,
+                'Implementation-Vendor-Id': project.group,
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                'Specification-Title': project.name,
+                'Specification-Version': project.version,
+                'Specification-Vendor': vendorName,
+                'Application-Name': applicationName,
+                'Main-Class': project.application.mainClass,
+                'Built-By': createdBy,
+                'Build-Time': new Date().format("yyyy-MM-dd 'Time:' HH:mm 'Zone:' Z"),
+                'Created-By': createdBy,
+                'Permissions': 'all-permissions',
+                'Codebase': '*',
+                'Automatic-Module-Name': moduleName
+        )
+
+    }
+}
+
+task fatJar(type: Jar) {
+manifest {
+attributes(
+    'Implementation-Title': project.name,
+    'Implementation-Version': project.version,
+    'Implementation-Vendor': vendorName,
+    'Implementation-Vendor-Id': project.group,
+    "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+    'Specification-Title': project.name,
+    'Specification-Version': project.version,
+    'Specification-Vendor': vendorName,
+    'Application-Name': applicationName,
+    'Main-Class': project.application.mainClass,
+    'Built-By': createdBy,
+    'Build-Time': new Date().format("yyyy-MM-dd 'Time:' HH:mm 'Zone:' Z"),
+    'Created-By': createdBy,
+    'Permissions': 'all-permissions',
+    'Codebase': '*',
+    'Automatic-Module-Name': moduleName
+)
+}
+//  baseName = 'all-in-one-jar'
+duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+with jar
+}
+
+
+
+
+
+

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a58baf12-4b80-45f6-9236-87067d769fc9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/Project-shadow/bin/Project.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/install/Project-shadow/bin/Project.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Project-1.0-SNAPSHOT-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Project-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/places.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/places.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/afterLoginPageCustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/afterLoginPageCustomer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/afterLoginPageLocal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/afterLoginPageLocal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences2barcelona.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences2barcelona.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences2madrid.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences2madrid.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences2valencia.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/customerpreferences2valencia.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/mainlogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/mainlogin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/registrationform.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/registrationform.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/registrationlocal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/registrationlocal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fxml/tripsummarycustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fxml/tripsummarycustomer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/Project.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/Project.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scriptsShadow/Project.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scriptsShadow/Project.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groovypr.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/groovypr.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BarcelonaPlacesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CustomerPreferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Local.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MadridPlacesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrderExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrderManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Place.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlaceDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegistrationAndLoginExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Restaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ValenciaPlacesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/places.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/places.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/afterLoginPageCustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/afterLoginPageCustomer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/afterLoginPageLocal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/afterLoginPageLocal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences2barcelona.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences2barcelona.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences2madrid.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences2madrid.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences2valencia.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/customerpreferences2valencia.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/mainlogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/mainlogin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/registrationform.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/registrationform.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/registrationlocal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/registrationlocal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/tripsummarycustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/tripsummarycustomer.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2P10YwX6ao5jdNXOiDHdP9sdZvn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/petra/eclipse-workspace/oop-2023-stv-13-a-dakic-xmikova/Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38824886&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pd\Downloads\repo\oop-2023-stv-13-a-dakic-xmikova\Project\src\main\java\org\example" />
+      <recent name="C:\Users\pd\Downloads\repo\oop-2023-stv-13-a-dakic-xmikova\Project\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Boot">
+    <configuration name="Boot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Boot" />
+      <module name="Project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Project.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Boot" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a58baf12-4b80-45f6-9236-87067d769fc9" name="Changes" comment="" />
+      <created>1682609333902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682609333902</updated>
+      <workItem from="1682609334958" duration="698000" />
+      <workItem from="1682610044137" duration="1603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

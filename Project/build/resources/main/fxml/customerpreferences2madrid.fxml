@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.MadridPlacesController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="490.0" prefWidth="670.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="118.0" layoutX="-4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="672.0" />
+        <Text layoutX="190.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EspaTrip">
+          <font>
+            <Font name="Bodoni MT" size="72.0" />
+          </font>
+        </Text>
+        <Text layoutX="292.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="your Spanish adventure">
+          <font>
+            <Font name="Bodoni MT" size="14.0" />
+          </font>
+        </Text>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f1d487" height="312.0" layoutX="-1.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="670.0" />
+        <Text layoutX="474.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0">
+          <font>
+            <Font size="26.0" />
+          </font>
+        </Text>
+        <Text layoutX="66.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose from the variety of restaurants and sights in Madrid:">
+          <font>
+            <Font name="Bodoni MT" size="21.0" />
+          </font>
+        </Text>
+            <Text layoutX="115.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tip: to see the description of the place as well as the price, click on it.">
+               <font>
+                  <Font name="Bodoni MT" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="89.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Restaurants:" wrappingWidth="118.13641357421875">
+               <font>
+                  <Font name="Bodoni MT" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="97.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Bodoni MT" size="15.0" />
+               </font>
+            </Text>
+            <Hyperlink fx:id="Botin" layoutX="116.0" layoutY="207.0" onAction="#hyperLinkHandler" text="Botín">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="Casamono" layoutX="101.0" layoutY="227.0" onAction="#hyperLinkHandler" text="Casa Mono">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="Elcluballard" layoutX="91.0" layoutY="248.0" onAction="#hyperLinkHandler" text="El Club Allard">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="Diverxo" layoutX="106.0" layoutY="268.0" onAction="#hyperLinkHandler" text="DiverXO">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="Streetxo" layoutX="104.0" layoutY="305.0" onAction="#hyperLinkHandler" text="StreetXO">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="tenconten" layoutX="96.0" layoutY="287.0" onAction="#hyperLinkHandler" text="Ten Con Ten">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="casalucio" layoutX="100.0" layoutY="325.0" onAction="#hyperLinkHandler" text="Casa Lucio">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="Lavaca" layoutX="69.0" layoutY="346.0" onAction="#hyperLinkHandler" text="La Vaca y La Huerta">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="Ramenkagura" layoutX="87.0" layoutY="387.0" onAction="#hyperLinkHandler" text="Ramen Kagura">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="Latasqueria" layoutX="93.0" layoutY="367.0" onAction="#hyperLinkHandler" text="La Tasquería">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Text layoutX="461.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sights:" wrappingWidth="118.13641357421875">
+               <font>
+                  <Font name="Bodoni MT" size="18.0" />
+               </font>
+            </Text>
+            <Hyperlink fx:id="Madridpalace" layoutX="415.0" layoutY="207.0" onAction="#hyperLinkHandler" text="Madrid Royal Palace">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="pradomuseum" layoutX="432.0" layoutY="227.0" onAction="#hyperLinkHandler" text="Prado Museum">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="retiropark" layoutX="441.0" layoutY="268.0" onAction="#hyperLinkHandler" text="Retiro Park">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="reinasofia" layoutX="416.0" layoutY="305.0" onAction="#hyperLinkHandler" text="Reina Sofia Museum">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="granvia" layoutX="449.0" layoutY="346.0" onAction="#hyperLinkHandler" text="Gran Via">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="santiagobernabeu" layoutX="394.0" layoutY="248.0" onAction="#hyperLinkHandler" text="Santiago Bernabeu Stadium">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="plazamayor" layoutX="440.0" layoutY="287.0" onAction="#hyperLinkHandler" text="Plaza Mayor">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="mercadodesanmiguel" layoutX="409.0" layoutY="327.0" onAction="#hyperLinkHandler" text="Mercado de San Miguel">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="puertadesol" layoutX="434.0" layoutY="387.0" onAction="#hyperLinkHandler" text="Puerta del Sol">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink fx:id="almudena" layoutX="416.0" layoutY="367.0" onAction="#hyperLinkHandler" text="Almudena Cathedral">
+               <font>
+                  <Font name="Bodoni MT" size="14.0" />
+               </font>
+            </Hyperlink>
+          <VBox fx:id="checkboxContainerRestaurants" layoutX="44.0" layoutY="209.0" prefHeight="209.0" prefWidth="18.0" spacing="2.0">
+       <CheckBox fx:id="Botin2" layoutX="98.0" layoutY="209.0" mnemonicParsing="false" />
+         <CheckBox fx:id="Casamono2" layoutX="85.0" layoutY="229.0" mnemonicParsing="false" />
+         <CheckBox fx:id="Elcluballard2" layoutX="73.0" layoutY="250.0" mnemonicParsing="false" />
+         <CheckBox fx:id="Diverxo2" layoutX="90.0" layoutY="269.0" mnemonicParsing="false" />
+         <CheckBox fx:id="tenconten2" layoutX="80.0" layoutY="288.0" mnemonicParsing="false" />
+         <CheckBox fx:id="Streetxo2" layoutX="87.0" layoutY="308.0" mnemonicParsing="false" />
+         <CheckBox fx:id="casalucio2" layoutX="85.0" layoutY="328.0" mnemonicParsing="false" />
+         <CheckBox fx:id="Lavaca2" layoutX="55.0" layoutY="348.0" mnemonicParsing="false" />
+         <CheckBox fx:id="Latasqueria2" layoutX="71.0" layoutY="389.0" mnemonicParsing="false" />
+         <CheckBox fx:id="Ramenkagura2" layoutX="75.0" layoutY="367.0" mnemonicParsing="false" />
+          </VBox>
+          <VBox fx:id="checkboxContainerSights" layoutX="593.0" layoutY="208.0" prefHeight="210.0" prefWidth="18.0" spacing="2.0">
+          <CheckBox fx:id="Madridpalace2" layoutX="388.0" layoutY="210.0" mnemonicParsing="false" />
+         <CheckBox fx:id="pradomuseum2" layoutX="408.0" layoutY="229.0" mnemonicParsing="false" />
+         <CheckBox fx:id="santiagobernabeu2" layoutX="369.0" layoutY="250.0" mnemonicParsing="false" />
+         <CheckBox fx:id="retiropark2" layoutX="417.0" layoutY="270.0" mnemonicParsing="false" />
+         <CheckBox fx:id="plazamayor2" layoutX="415.0" layoutY="290.0" mnemonicParsing="false" />
+         <CheckBox fx:id="reinasofia2" layoutX="391.0" layoutY="307.0" mnemonicParsing="false" />
+         <CheckBox fx:id="mercadodesanmiguel2" layoutX="385.0" layoutY="329.0" mnemonicParsing="false" />
+         <CheckBox fx:id="granvia2" layoutX="425.0" layoutY="349.0" mnemonicParsing="false" />
+         <CheckBox fx:id="almudena2" layoutX="392.0" layoutY="369.0" mnemonicParsing="false" />
+         <CheckBox fx:id="puertadelsol2" layoutX="409.0" layoutY="390.0" mnemonicParsing="false" />
+          </VBox>
+            <Button fx:id="offerButton" layoutX="284.0" layoutY="374.0" mnemonicParsing="false" onAction="#checkBoxesSetSelectedPlaces" text="Get offer now!" />
+          <Button layoutX="14.0" layoutY="14.0" onAction="#goBackToPref1" prefHeight="29.0" prefWidth="24.0">
+              <graphic>
+                  <ImageView fitHeight="25" fitWidth="25" preserveRatio="true">
+                      <image>
+                          <Image url="@Daco_1061721.png" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

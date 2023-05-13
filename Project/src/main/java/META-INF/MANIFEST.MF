@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: EspaTrip
+Implementation-Version: 1.0.0
+Implementation-Vendor: OOP - FIIT, STU
+Implementation-Vendor-Id: app
+Implementation-Timestamp: 2023-04-08T19:30:33+0200
+Specification-Title: EspaTrip
+Specification-Version: 1.0.2
+Specification-Vendor: OOP - FIIT, STU
+Application-Name: EspaTrip
+Main-Class: org.example.app.Boot
+Built-By: Petra Miková
+Created-By: Petra Miková
+Permissions: all-permissions
+Codebase: *
+Automatic-Module-Name: Project.main
+
